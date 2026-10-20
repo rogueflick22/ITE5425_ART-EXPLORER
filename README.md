@@ -19,5 +19,5 @@ Open http://localhost:3000
 - `/about` – About the developer
 
 ## Links
-- Live site: (Vercel URL)
+- Live site: https://ite-5425-art-explorer.vercel.app/
 - Repository: https://github.com/rogueflick22/ITE5425_ART-EXPLORER
