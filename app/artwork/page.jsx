@@ -9,7 +9,7 @@
 * brainstorming, but the submitted work must be customized to this Art
 * Explorer assignment and I must be able to explain the code and design decisions.
 *
-* Name: Maria Catherine Jaramillo Student ID: N01740036 Date: 10-19-2026
+* Name: Maria Catherine Jaramillo Student ID: N01740036 Date: 10-20-2026
 *********************************************************************************/
 import ArtworkBrowser from "@/components/ArtworkBrowser";
 
@@ -21,9 +21,7 @@ export default async function Artworks({ searchParams }) {
   return (
     <>
       <h1>Browse Artworks</h1>
-      <p className="muted">
-        Showing results for "{q}"{titleOnly ? " (title only)" : ""}
-      </p>
+      <p className="muted">Search the Met Museum collection below.</p>
       <ArtworkBrowser key={`${q}-${titleOnly}`} initialKeyword={q} titleOnly={titleOnly} />
     </>
   );
